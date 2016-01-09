@@ -37,3 +37,8 @@ bourne_identity = media.Movie("Bourne Identity",
 
 movies = [toy_story, avatar, transformers, hunger_games, avengers, bourne_identity]
 content_controller.open_movies_page(movies)
+
+#print(media.Movie.VALID_RATINGS)  
+#print(media.Movie.__doc__)			#doc written in the class
+#print(media.Movie.__name__)       	#Class name
+print(media.Movie.__module__)		#Name of the module where the class resides
