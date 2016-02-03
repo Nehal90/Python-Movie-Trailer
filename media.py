@@ -1,9 +1,9 @@
-#This file is part of the Intro to python course but not needed for 
-#actual movie-trailer project to run
+# This file is part of the Intro to python course but not needed for 
+# actual movie-trailer project to run
 
 import webbrowser
 
-class Movie():
+class Movie:
 
 	"""This program lists movie information and their trailers"""
 
