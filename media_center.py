@@ -1,6 +1,8 @@
 import media
 import content_controller
 
+#Adding my favourite movie details
+
 toy_story = media.Movie("Toy Story", 
 						"A story about toys who come to life",
 						"http://www.hesaidshesaidreviewsite.com/img/posters/toystory.jpg",
@@ -34,6 +36,8 @@ bourne_identity = media.Movie("Bourne Identity",
 			  "A former spy who goes after the authority for their illegal actions",
 			  "http://static.flickr.com/39/100950547_b9bab1a800_o.jpg",
 			  "https://www.youtube.com/watch?v=FpKaB5dvQ4g")
+
+#declaring array that holds all the movies
 
 movies = [toy_story, avatar, transformers, hunger_games, avengers, bourne_identity]
 content_controller.open_movies_page(movies)
